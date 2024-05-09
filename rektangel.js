@@ -13,7 +13,7 @@ class Rektangel {
     }
 
     setSize(length, width) {
-        this.length == length
+        this.length = length
         this.width = width
     }
 
