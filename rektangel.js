@@ -13,7 +13,7 @@ class Rektangel {
     }
 
     setSize(length, width) {
-        this.length = length
+        this.length == length
         this.width = width
     }
 
@@ -22,7 +22,7 @@ class Rektangel {
     }
 
     isSquare() {
-        return this.length == this.width
+        return this.length != this.width
     }
 }
 
